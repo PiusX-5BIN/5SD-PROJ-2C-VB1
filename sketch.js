@@ -7,75 +7,160 @@ function setup() {
 function draw() {
     background(200);
     if (huidigeFrame == 0) {
-        TekenStripkader1();
+        background(200, 0, 0);
+        fill("#f99621");
+        arc(70, 380, 200, 200, PI * 4/3, PI * 5/3);
+        noFill();
+        stroke("#d17728");
+        strokeWeight(16);
+        arc(70, 380, 200, 200, PI * 4/3, PI * 5/3, OPEN);
+        noStroke();
+        fill("#bc1f28");
+        circle(70+2, 380-20, 15);
+        circle(70-10, 380-40, 15);
+        circle(70+10, 380-60, 20);
+        circle(70-15, 380-70, 18);
+        circle(70+20, 380-80, 15);
+        noFill();
+        stroke("#000");
+        strokeWeight(2);
+        arc(70, 380-50, 50, 50, PI * 1/3, PI * 2/3, OPEN);
+        noStroke();
+        fill(255);
+        circle(70+15, 380-60, 20);
+        circle(70-15, 380-60, 20);
+        fill(0);
+        circle(70+15, 380-60, 5);
+        circle(70 - 15, 380 - 60, 5);
+        fill("#f99621");
+        arc(270, 380, 200, 200, PI * 4/3, PI * 5/3);
+        noFill();
+        stroke("#d17728");
+        strokeWeight(16);
+        arc(270, 380, 200, 200, PI * 4/3, PI * 5/3, OPEN);
+        noStroke();
+        fill("#bc1f28");
+        circle(270+2, 380-20, 15);
+        circle(270-10, 380-40, 15);
+        circle(270+10, 380-60, 20);
+        circle(270-15, 380-70, 18);
+        circle(270+20, 380-80, 15);
+        noFill();
+        stroke("#000");
+        strokeWeight(2);
+        arc(270, 380-50, 50, 50, PI * 1/3, PI * 2/3, OPEN);
+        noStroke();
+        fill(255);
+        circle(270+15, 380-60, 20);
+        circle(270-15, 380-60, 20);
+        fill(0);
+        circle(270+15, 380-60, 5);
+        circle(270-15, 380-60, 5);
     }
     else if (huidigeFrame == 1) {
-        TekenStripkader2();
+        background(220, 50, 0);
+        TekenTekstballon(140, 230, 200, 50, .25, "Amai, vind jij het hier ook niet te warm?");
+        fill("#f99621");
+        arc(70, 380, 200, 200, PI * 4/3, PI * 5/3);
+        noFill();
+        stroke("#d17728");
+        strokeWeight(16);
+        arc(70, 380, 200, 200, PI * 4/3, PI * 5/3, OPEN);
+        noStroke();
+        fill("#bc1f28");
+        circle(70+2, 380-20, 15);
+        circle(70-10, 380-40, 15);
+        circle(70+10, 380-60, 20);
+        circle(70-15, 380-70, 18);
+        circle(70+20, 380-80, 15);
+        noFill();
+        stroke("#000");
+        strokeWeight(2);
+        arc(70, 380-50, 50, 50, PI * 1/3, PI * 2/3, OPEN);
+        noStroke();
+        fill(255);
+        circle(70+15, 380-60, 20);
+        circle(70-15, 380-60, 20);
+        fill(0);
+        circle(70+15, 380-60, 5);
+        circle(70 - 15, 380 - 60, 5);
+        fill("#f99621");
+        arc(270, 380, 200, 200, PI * 4/3, PI * 5/3);
+        noFill();
+        stroke("#d17728");
+        strokeWeight(16);
+        arc(270, 380, 200, 200, PI * 4/3, PI * 5/3, OPEN);
+        noStroke();
+        fill("#bc1f28");
+        circle(270+2, 380-20, 15);
+        circle(270-10, 380-40, 15);
+        circle(270+10, 380-60, 20);
+        circle(270-15, 380-70, 18);
+        circle(270+20, 380-80, 15);
+        noFill();
+        stroke("#000");
+        strokeWeight(2);
+        arc(270, 380-50, 50, 50, PI * 1/3, PI * 2/3, OPEN);
+        noStroke();
+        fill(255);
+        circle(270+15, 380-60, 20);
+        circle(270-15, 380-60, 20);
+        fill(0);
+        circle(270+15, 380-60, 5);
+        circle(270-15, 380-60, 5);
     }
     else if (huidigeFrame == 2) {
-        TekenStripkader3();
+        background(180, 0, 0);
+        TekenTekstballon(180, 230, 200, 50, .75, "AAH! EEN SPREKENDE PIZZA!");
+        fill("#f99621");
+        arc(70, 380, 200, 200, PI * 4/3, PI * 5/3);
+        noFill();
+        stroke("#d17728");
+        strokeWeight(16);
+        arc(70, 380, 200, 200, PI * 4/3, PI * 5/3, OPEN);
+        noStroke();
+        fill("#bc1f28");
+        circle(70+2, 380-20, 15);
+        circle(70-10, 380-40, 15);
+        circle(70+10, 380-60, 20);
+        circle(70-15, 380-70, 18);
+        circle(70+20, 380-80, 15);
+        noFill();
+        stroke("#000");
+        strokeWeight(2);
+        arc(70, 380-50, 50, 50, PI * 1/3, PI * 2/3, OPEN);
+        noStroke();
+        fill(255);
+        circle(70+15, 380-60, 20);
+        circle(70-15, 380-60, 20);
+        fill(0);
+        circle(70+15, 380-60, 5);
+        circle(70 - 15, 380 - 60, 5);
+        fill("#f99621");
+        arc(270, 380, 200, 200, PI * 4/3, PI * 5/3);
+        noFill();
+        stroke("#d17728");
+        strokeWeight(16);
+        arc(270, 380, 200, 200, PI * 4/3, PI * 5/3, OPEN);
+        noStroke();
+        fill("#bc1f28");
+        circle(270+2, 380-20, 15);
+        circle(270-10, 380-40, 15);
+        circle(270+10, 380-60, 20);
+        circle(270-15, 380-70, 18);
+        circle(270+20, 380-80, 15);
+        noFill();
+        stroke("#000");
+        strokeWeight(2);
+        arc(270, 380-50, 50, 50, PI * 1/3, PI * 2/3, OPEN);
+        noStroke();
+        fill(255);
+        circle(270+15, 380-60, 20);
+        circle(270-15, 380-60, 20);
+        fill(0);
+        circle(270+15, 380-60, 5);
+        circle(270-15, 380-60, 5);
     }
-}
-
-function TekenStripkader1() {
-    background(200, 0, 0);
-    TekenPizza(70, 380);
-    TekenPizza(270, 380);
-}
-
-function TekenStripkader2() {
-    background(220, 50, 0);
-    TekenTekstballon(140, 230, 200, 50, .25, "Amai, vind jij het hier ook niet te warm?");
-    TekenPizza(70, 380);
-    TekenPizza(270, 380);
-}
-
-function TekenStripkader3() {
-    background(180, 0, 0);
-    TekenTekstballon(180, 230, 200, 50, .75, "AAH! EEN SPREKENDE PIZZA!");
-    TekenPizza(70, 380);
-    TekenPizza(270, 380);
-}
-
-/**
- * Tekent een pizza met een gezicht.
- * @param {number} x : de x-positie van de pizza
- * @param {number} y : de y-positie van de pizza
- */
-function TekenPizza(x, y) {
-    // de pizzabodem
-    fill("#f99621");
-    arc(x, y, 200, 200, PI * 4/3, PI * 5/3);
-
-    // de korst
-    noFill();
-    stroke("#d17728");
-    strokeWeight(16);
-    arc(x, y, 200, 200, PI * 4/3, PI * 5/3, OPEN);
-
-    // de salami
-    noStroke();
-    fill("#bc1f28");
-    circle(x+2, y-20, 15);
-    circle(x-10, y-40, 15);
-    circle(x+10, y-60, 20);
-    circle(x-15, y-70, 18);
-    circle(x+20, y-80, 15);
-
-    // de mond
-    noFill();
-    stroke("#000");
-    strokeWeight(2);
-    arc(x, y-50, 50, 50, PI * 1/3, PI * 2/3, OPEN);
-
-    // de ogen
-    noStroke();
-    fill(255);
-    circle(x+15, y-60, 20);
-    circle(x-15, y-60, 20);
-    fill(0);
-    circle(x+15, y-60, 5);
-    circle(x-15, y-60, 5);
 }
 
 /**
